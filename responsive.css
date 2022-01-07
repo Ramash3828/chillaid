@@ -1,0 +1,125 @@
+/* Normal Desktop: 992px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+
+/* Tablet Desktop: 768px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 90%;
+    }
+    .weidget-area .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* Small Mobile: 320px */
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .logo-area {
+        margin-bottom: 20px;
+    }
+    .navbar {
+        padding: 10px;
+        background-color: rgba(251, 255, 0, 0.11);
+    }
+    .hero-area h2 {
+        font-size: 45px;
+    }
+    .hero-area .para {
+        max-width: 100%;
+    }
+    .hero-area {
+        grid-template-columns: 1fr;
+        padding: 100px 0;
+        height: auto;
+    }
+    .hero-card-area {
+        top: 110%;
+        height: auto;
+    }
+    .flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* Figure Area */
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .figure-area {
+        padding: 50px 0;
+        margin: 980px 0 50px;
+    }
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-self: center;
+    }
+    /* Counter Area */
+    .counter-area .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .progress p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    /* Testimonial */
+    .testimonial-area .pic-name.flex {
+        justify-content: center;
+        flex-direction: row;
+    }
+    .employee {
+        margin-bottom: 30px;
+    }
+    .wid-section-title {
+        margin-bottom: 20px;
+    }
+    .about-area,
+    .gallary-area,
+    .link-area,
+    .social-area {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Large Mobile: 480px */
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .counter-area .grid {
+        grid-template-columns: 1fr;
+    }
+    .progress p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .figure-area {
+        padding: 50px 0;
+        margin: 1025px 0 50px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+    footer p {
+        margin-bottom: 15px;
+    }
+}
